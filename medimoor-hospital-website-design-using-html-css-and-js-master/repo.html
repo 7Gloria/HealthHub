@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesrepo.css">
+    <title>Lab Test Report | Online Pharmacy</title>
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1669101283561-642d16d924ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhYiUyMHJlcG9ydHxlbnwwfHwwfHx8MA%3D%3D") ;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+        <h2>Lab Test Report</h2>
+        <form id="labReportForm">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="testType">Test Type:</label>
+            <input type="text" id="testType" name="testType" required>
+
+            <label for="testResult">Test Result:</label>
+            <textarea id="testResult" name="testResult" rows="4" required></textarea>
+
+            <button type="button" onclick="submitLabReport()">Submit Lab Report</button>
+        </form>
+    </div>
+
+    <script src="scriptrepo.js"></script>
+</body>
+</html>

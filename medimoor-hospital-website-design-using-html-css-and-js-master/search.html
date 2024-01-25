@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Search</title>
+</head>
+<body>
+    <h1>Find a Doctor</h1>
+    <form id="searchForm">
+        <label for="specialty">Select Specialty:</label>
+        <select id="specialty" name="specialty">
+            <option value="cardiologist">Cardiologist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <!-- Add more specialties as needed -->
+        </select>
+        <br>
+        <button type="button" onclick="searchDoctors()">Search</button>
+    </form>
+
+    <div id="searchResults"></div>
+
+    <script src="search.js"></script>
+</body>
+</html>

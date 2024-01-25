@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="h1.css">
+    <title>Doctor Confirmation Notification</title>
+    <style>
+        body{
+           
+            background-image: url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvbmV8ZW58MHx8MHx8fDA%3D");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Trigger button for the notification -->
+   <a href="index.html"><button id="confirmButton" onclick="showConfirmation()">Confirm Appointment</a> </button>
+
+    <!-- Modal for the confirmation notification -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeConfirmation()">&times;</span>
+            <h2>Doctor Confirmation</h2>
+            <p>Your appointment has been confirmed. See you soon!</p>
+        </div>
+    </div>
+
+    <script src="1.js"></script>
+</body>
+</html>

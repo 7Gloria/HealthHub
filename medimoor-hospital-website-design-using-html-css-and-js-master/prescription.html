@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepres.css">
+    <title>Doctor Prescription | Online Pharmacy</title>
+
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1626351543430-23d7f5609535?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJlc2NyaXB0aW9ufGVufDB8fDB8fHww");
+        }
+    </style>
+</head>
+<body>
+    <div class="prescription-container">
+        <h2>Doctor Prescription</h2>
+        <form id="prescriptionForm">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="medication">Medication:</label>
+            <textarea id="medication" name="medication" rows="4" required></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4" required></textarea>
+
+            <button type="button" onclick="submitPrescription()">Submit Prescription</button>
+        </form>
+    </div>
+
+    <script src="scriptpres.js"></script>
+</body>
+</html>

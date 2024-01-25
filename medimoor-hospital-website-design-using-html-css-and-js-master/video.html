@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m1.css">
+    <title>Video Consultation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Video Consultation</h1>
+        <div id="localVideoContainer">
+            <h2>Your Video</h2>
+            <video id="localVideo" autoplay muted></video>
+        </div>
+        <img id="remoteVideoContainer">
+            <h2>Doctor's Video</h2>
+            <img src=" https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9jdG9yfGVufDB8fDB8fHww"></img>
+        </div>
+        <button id="startButton" onclick="startVideoCall()">Start Video Call</button>
+        <button id="endButton" onclick="endVideoCall()" disabled>End Video Call</button>
+    </div>
+
+    <script src="m2.js"></script>
+</body>
+</html>
